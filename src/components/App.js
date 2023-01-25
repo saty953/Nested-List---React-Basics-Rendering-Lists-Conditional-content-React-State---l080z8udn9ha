@@ -155,7 +155,12 @@ const states = [
 ];
 
 function App() {
-  return <div id="main"></div>;
+  return <div id="main">
+    <li>{state[0].name}</li>
+    <li>{state[1].name}</li>
+    <li>{state[2].name}</li>
+    <li>{state[3].name}</li>
+  </div>;
 }
 
 export default App;
